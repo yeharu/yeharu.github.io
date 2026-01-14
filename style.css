@@ -87,3 +87,52 @@ html {
     margin: 6px 8px;
   }
 }
+
+/* 料金表 */
+.price-box {
+  background-color: #ffffff;
+  border-radius: 12px;
+  padding: 24px 20px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.03);
+}
+
+.price-box h3 {
+  font-size: 16px;
+  font-weight: 500;
+  margin-bottom: 16px;
+  color: #555;
+}
+
+.price-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.price-list li {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 0;
+  border-bottom: 1px solid #eee;
+  font-size: 14px;
+}
+
+.price-list li:last-child {
+  border-bottom: none;
+}
+
+.price-list .item {
+  color: #444;
+}
+
+.price-list .price {
+  color: #c99;
+  white-space: nowrap;
+}
+
+.price-note {
+  margin-top: 16px;
+  font-size: 12px;
+  color: #777;
+  line-height: 1.6;
+}
