@@ -34,6 +34,7 @@ body {
   font-size: 18px;
   font-weight: 500;
   margin-bottom: 16px;
+  color: #555;
 }
 
 /* キャッチコピー */
@@ -66,12 +67,23 @@ body {
   text-decoration: none;
   font-size: 14px;
   color: #666;
+  padding: 4px 8px;
+  border-radius: 6px;
+  transition: background-color 0.2s, color 0.2s;
 }
 
 .nav a:hover {
   color: #c99;
+  background-color: rgba(201, 153, 153, 0.15);
 }
 
 html {
   scroll-behavior: smooth;
+}
+
+@media (max-width: 600px) {
+  .nav a {
+    display: inline-block;
+    margin: 6px 8px;
+  }
 }
