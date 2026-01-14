@@ -1,4 +1,10 @@
 /* 全体 */
+
+
+body {
+  background-color: red;
+}
+
 body {
   margin: 0;
   font-family: "Hiragino Kaku Gothic ProN", "Noto Sans JP", sans-serif;
